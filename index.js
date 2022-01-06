@@ -11,4 +11,6 @@ app.get('/hello-world', (req, res) => {
 
 app.listen(port, () => {
     console.log(`Application started and listening to port ${port}`)
+    console.log(`Environment: ${process.env}`)
 })
+
