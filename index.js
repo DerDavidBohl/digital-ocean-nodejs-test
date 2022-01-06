@@ -3,7 +3,7 @@ const express = require("express")
 console.log('Launching app...')
 
 const app = express()
-const port = 8080
+const port = process.env.PORT
 
 app.get('/hello-world', (req, res) => {
     res.send({message: 'Hello World!'})
