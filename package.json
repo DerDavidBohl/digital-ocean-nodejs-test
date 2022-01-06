@@ -1,0 +1,23 @@
+{
+  "name": "digital-ocean-nodejs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerDavidBohl/digital-ocean-nodejs-test.git"
+  },
+  "author": "David Bohl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerDavidBohl/digital-ocean-nodejs-test/issues"
+  },
+  "homepage": "https://github.com/DerDavidBohl/digital-ocean-nodejs-test#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
